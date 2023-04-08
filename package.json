@@ -1,0 +1,27 @@
+{
+  "name": "next-format",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.0.1",
+    "@types/node": "^16.10.1",
+    "@types/react": "^17.0.24",
+    "next": "11.1.2",
+    "nodemailer": "^6.6.5",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-hook-form": "^7.43.9",
+    "typescript": "^4.4.3",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-next": "11.1.2"
+  }
+}

@@ -1,0 +1,112 @@
+.contact {
+    padding: 48px 24px;
+}
+.contact .form dl {
+    margin: 0 0 16px 0;
+    padding: 0 0 16px 0;
+    border-bottom: 1px solid #dadada;
+}
+.contact .form dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 16px 0;
+}
+.contact .form dl dd .input {
+    font-size: 16px;
+    width: 100%;
+    padding: 14px 20px;
+    border: 2px solid #dadada;
+    border-radius: 4px;
+    outline: none;
+    background: #fff;
+}
+.contact .form dl dd textarea {
+    resize: vertical;
+    height: 240px;
+}
+.contact .form dl dd .error {
+    display: block;
+    font-size: 14px;
+    color: #BA5042;
+    margin: 12px 0 0 0;
+}
+.contact .form dl.lastForm {
+    border-bottom: none;
+}
+.contact .form .submit {
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    width: 200px;
+    margin: 0 auto;
+    padding: 16px;
+    border: 1px solid #333;
+    border-radius: 40px;
+    outline: none;
+    background: #333;
+}
+.contact .form .pending {
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+    margin: 0 0 24px 0;
+}
+@media screen and (min-width: 768px) {
+    .contact {
+        padding: 48px 0;
+    }
+    .contact .form {
+        width: calc(100% - 80px);
+        margin: 0 auto;
+    }
+    .contact .form .submit {
+        transition: 0.5s;
+    }
+    .contact .form .submit:hover {
+        color: #333;
+        background: none;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .contact {
+        padding: 96px 0;
+    }
+    .contact .form {
+        width: calc(100% - 200px);
+        margin: 0 auto;
+    }
+    .contact .form dl {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 0 32px 0;
+        padding: 0 0 32px 0;
+    }
+    .contact .form dl dt {
+        width: 20%;
+        font-size: 16px;
+        margin: 0 0 16px 0;
+    }
+    .contact .form dl dd {
+        width: 100%;
+    }
+    .contact .form dl dd .input {
+        font-size: 16px;
+        padding: 18px 26px;
+    }
+    .contact .form dl dd textarea {
+        height: 320px;
+    }
+    .contact .form .submit {
+        font-size: 20px;
+        width: 360px;
+        padding: 24px;
+    }
+}
+@media screen and (min-width: 1366px) {
+    .contact {
+        padding: 120px 0;
+    }
+    .contact .form {
+        width: 960px;
+    }
+}
